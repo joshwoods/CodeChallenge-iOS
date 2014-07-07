@@ -20,6 +20,7 @@
     BOOL _changeToBlue;
     BOOL _changeToGreen;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -27,7 +28,7 @@
     
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     [super prepareForSegue:segue sender:sender];
     
     SecondViewController *secondViewController = segue.destinationViewController;

@@ -11,7 +11,7 @@
 
 @implementation SecondViewController
 
--(IBAction)goBackWasPressed:(id)sender {
+- (IBAction)goBackWasPressed:(id)sender {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
